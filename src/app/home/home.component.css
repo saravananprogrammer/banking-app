@@ -1,0 +1,42 @@
+div{
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(225, 235, 245);
+}
+input[type="text"]{font-size:12px; }
+input[type="text"]:disabled {background: rgba(190, 194, 197, 0.747)}
+.btn-default{border-radius: 5px; border: 1px solid rgb(100, 93, 93); }
+.btn-info{ border: 1px solid rgb(100, 93, 93); border-radius: 5px;
+   
+}
+.btn-blue{
+    border-radius: 5px; border: 1px solid rgb(29, 32, 32); background-color: rgb(188, 211, 235);
+}
+ .btn-white{
+    border-radius: 5px; border: 1px solid rgb(29, 32, 32); background-color: rgb(250, 251, 253);
+ }
+.panel{
+    
+    border: 1px solid rgb(36, 35, 35);
+    border-radius: 8px
+
+}
+
+.small-text{
+    width: 90%;
+}
+.lg-text-90{
+    width: 90%;
+}
+.pagination-text{
+    width: 10%;
+}
+.medium-text{
+    width: 30%;
+}
+.bg-txt{
+    width: 69%;
+}
+.subpanel{
+    height: 165px;
+}
