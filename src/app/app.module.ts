@@ -9,6 +9,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { CoreTableComponent } from './components/core-table/core-table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatTableComponent } from './components/mat-table/mat-table.component';
+import {FormsModule} from '@angular/forms'
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { MatTableComponent } from './components/mat-table/mat-table.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatTableModule
+    MatTableModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
