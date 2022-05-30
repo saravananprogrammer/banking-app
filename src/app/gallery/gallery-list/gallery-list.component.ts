@@ -21,7 +21,7 @@ export class GalleryListComponent implements OnInit {
         let val = `
         <div>
         <div class="image">
-          <img src="../../assets/gallery/",${this.gallery[i]}>
+          <img src="../../assets/gallery/${this.gallery[i]}">
           <button class="remove" (click)="removeItem(i,$event)">X</button>
         </div>
       </div>
