@@ -1,8 +1,22 @@
-<div>
-    <div class="image" *ngFor="let image of gallery; let i = index">
+<div class="">Source Code:</div>
+<ng-container *ngFor="let image of gallery; let i = index">
+  <div>
+    <div class="image">
       <img src="../../assets/gallery/{{image}}">
-      <button class="remove" (click)="removeItem(i)">X</button>
+      <button class="remove" (click)="removeItem(i,$event)">X</button>
     </div>
-
   </div>
+    <pre>{{code[i]}}</pre>
+</ng-container>
+<!-- 
+<div >{{code}}</div> -->
+
+<!-- <ng-container *ngFor="let cod of code">
+
+  <div><pre>{{cod}}</pre> </div>
+
+</ng-container> -->
+  
+
+
 
